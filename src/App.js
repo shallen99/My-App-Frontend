@@ -1,4 +1,3 @@
-import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Outlook from './Components/Outlook';
 import Homepage from './Components/Homepage';
