@@ -3,7 +3,6 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Outlook from './Components/Outlook';
 import Homepage from './Components/Homepage';
 import Postartist from './Components/Postartist';
-import UpdateArtist from './Components/UpdateArtist';
 
 function App() {
   return (
