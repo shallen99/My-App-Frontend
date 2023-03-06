@@ -1,4 +1,6 @@
-
+import React from 'react'
+import { useEffect, useState } from 'react'
+import Artist from './Artist'
 function Homepage() {
 
   const [artists, setArtists] = useState()
