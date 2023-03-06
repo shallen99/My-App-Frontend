@@ -1,6 +1,10 @@
 import React, {useState} from 'react'
 
-
+function Postartist() {
+    const [artistName, setArtistName] = useState("")
+    const [songName, setSongName] = useState("")
+    const [genre, setGenre] = useState("")
+  
     const handleSubmit = (event) => {
     event.preventDefault()
     fetch ('http://localhost:9292/artists/', {
